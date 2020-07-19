@@ -1,0 +1,497 @@
+.banner {
+	height:100vh;
+	position:relative;
+	width:100%;
+	overflow: hidden;
+}
+.banner video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+}
+.banner-innner {
+    padding: 15% 0;
+}
+
+header{
+	position:absolute;
+	width:100%;
+	top:0;
+	z-index:11;
+    
+}
+.banner-left {
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.overlay {
+    background: #3f51b569; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-left h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 50px;
+    text-shadow: 1px 2px #000;
+	margin-bottom:15px;
+}
+
+.banner-left p {
+    color: #fff;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+	margin-bottom:30px;
+}
+
+.custom-btn {
+    width: 100%;
+    background: #E1E1E1;
+    color: #fff;
+    letter-spacing: 2.5px;
+	transition:0.8 ease;
+}
+
+.banner-left a {
+    background: #E1E1E1;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    padding: 8px 35px;
+    border-radius: 4px;
+	transition:0.8 ease;
+}
+
+.banner-left a:hover{
+	letter-spacing:3px;
+	transition:0.8 ease;
+}
+
+.custom-btn:hover{
+	letter-spacing:3px;
+	transition:0.8 ease;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:hover {
+    color: #E1E1E1;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #E1E1E1;
+}
+
+.dropdown-menu {
+    padding: 0px;
+   
+}
+span.navbar-toggler-icon {
+    background-image: url(https://i.ibb.co/1v9M0dZ/menu.png) !important;
+    width: 25px;
+    height: 25px;
+	cursor:pointer;
+}
+button.navbar-toggler:focus {
+    outline: none;
+}
+
+a.dropdown-item {
+    padding: 10px;
+    background: #515156;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 900px ) {
+	.banner-left h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    text-shadow: 1px 2px #000;
+    text-align: center;
+    
+}
+.banner{
+	padding:120px 0;
+	height: auto;
+}
+
+.nav-color{
+	background:#000;
+}
+.navbar-light .navbar-nav .nav-link{
+	padding-left:0;
+}
+
+
+
+.body {
+    height: auto;
+}
+
+
+.page_title {
+    padding: 30px 0px;
+}
+
+.menu_tab {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.nav-item {
+      display: inline-block;
+    text-align: center;
+}
+
+#dinner-tab :hover{
+     
+    color: #fff;
+    border: 1px solid #c0392b;
+}
+    
+   
+    
+* {
+  box-sizing: border-box;
+}
+    
+#upperWrap, #lowerWrap {
+  overflow: hidden;
+  height: 30px;
+  line-height: 30px;
+  width: auto;
+  font-weight: 700;
+}
+
+#upper {
+  font-size: 24px;
+  text-transform: uppercase
+}
+
+#line {
+  width: 300px;
+  height: 1px;
+  background: white;
+}
+
+
+#ml15 {
+ font-weight: 800;
+  font-size: 2.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.word {
+     display: inline-block;
+  line-height: 1em;
+}
+    
+    
+    
+
+    
+    
+#list-tab :link{
+     text-decoration-color: darkgray;
+}
+
+
+.onebyone-carosel {
+    margin: auto; width: 100%;
+}
+
+    
+    
+@media only screen and (min-device-width : 320px) and (max-device-width : 900px) {
+    
+   
+
+    .card-img{
+        height:100%;
+        width: 100%;
+    }
+    
+    
+   
+    
+    .body{
+        width: 100%;
+        height:100%;
+       
+    }
+    
+    .banner{
+      width: 100%;
+      height:430px;
+        
+    }
+    
+    .banner-innner{
+        
+        width: 100%;
+        height:50%;
+        color: black;
+        text-align: center;
+    }
+    
+    .tagline-video{
+        width: 100%;
+        height:100vh;
+        margin-top: 40%;
+    }
+    
+    #videoss{
+        width: 100%;
+        height:100vh;
+        box-shadow: 0 0 10px 3px #283371;
+    }
+    
+    .overlay{
+        width: 100%;
+        height: 100%;
+         box-shadow: 0 0 10px 3px #283371;
+       
+    }
+    
+    .banner-left{
+        width: 100%;
+        height: 100%;
+        
+    } 
+    
+    #eypturid{
+        width: 100%;
+        height:auto;
+        margin-top: 50px;
+        
+       
+    }
+    
+     #hakkimizda{
+    
+        width: 100%;
+        height:100%;
+          
+    }
+    
+    #col_hak{
+        width: 100%;
+        height:100%;
+        font-size: 20px;
+        
+    }
+    
+    #hakkimizda.row {
+       width: 100%;
+        height:100%;
+        
+    }
+    
+    #medihakkimizdarow{
+        width: 100%;
+        height:100%;
+      
+        
+    }
+    
+    #medihakkimizdarow2{
+        width: 100%;
+        height:100%;
+    }
+   
+    #organizasyon{
+        width: 100%;
+        height:100%;
+        margin-top: 20px;
+        
+    }
+    
+    #mediahakki{
+        width: 100%;
+        height:100%;
+        margin: 0px auto;
+        
+   
+       
+    }
+  
+    
+    #mediahakki1{
+       width: 100%;
+        height:100%;
+    }
+    
+    
+    #yemek_menu_media{
+        
+      
+        width: 100%;
+        height:30%;
+        margin-top: 100px;
+    
+    }
+    
+  
+    
+    .media_hakkimizda_upperWrap{
+        width: 100%;
+        height:100%;
+    }
+    
+    .media_hakkimizda_upper{
+       width: 100%;
+        height:100%;
+    }
+    
+    #media_organizasyon.text{
+       
+       width: 100%;
+        height:100%;
+    }
+    
+    
+    #carouselExampleIndicators.carousel.slide{
+        width: 100%;
+        height:100%;
+    }
+    
+    #carouselExampleIndicators{
+        width: 100%;
+        height:100%;
+    }
+    
+    
+    .carousel-inner{
+       width: 100%;
+        height:100%;
+    }
+    
+    #carousel-inner{
+       width: 100%;
+        height:100%;
+    }
+    
+    .carousel slide{
+        width: 100%;
+        height:100%;
+    }
+    
+    .img-thumbnail{
+        
+        width: 100%;
+        height:100%;
+    }
+  
+    
+    #image_media_carsul{
+        
+        width: 100%;
+        height:100%;
+        
+    }
+    
+    .carousel-item{
+       width: 100%;
+        height:100%;
+    }
+    
+    #big_image{
+      width: 100%;
+        height:100%;
+        
+    }
+    
+    .tab-pane fade{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .carousel-inner img{
+        
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    #media_orgss{
+        margin-top: 40px;
+    }
+    
+    #text_mediaa{
+        width: 100%;
+        height: 100%;
+        
+        
+    }
+    
+    #p_media{
+        width: 60%;
+        height: 100%;
+        margin-top: 10%;
+        
+    }
+    
+    #media_kisi{
+        width: 100%;
+        
+    }
+    
+    #media_organizasyon{
+        width: 80%;
+    }
+    
+    .map{
+        width: 100%;
+    }
+    
+    #title_media{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #logo_yat{
+        
+    }
+    
+    
+}
+
+
+
